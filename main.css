@@ -1,3 +1,74 @@
 body{
-  background-color: coral;
+  background-color: black;
+  color: aliceblue;
+  background-image: url(https://i.ibb.co/fXnPQ6j/14917202-1333782589978207-4611112018811980532-o-1.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Abel', sans-serif;
+  
+  
+}
+
+#bioPage{
+  display: flex;
+  justify-content: center;
+}
+.bio{
+ 
+  width: 500px;
+  text-align: center;
+  line-height: 30px ;
+  text-shadow: 2px 2px black;
+}
+.header{
+  text-align: center;
+ 
+  
+}
+
+#navLinks{
+  list-style-type: none;
+  
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+
+}
+#navLinks a{
+  
+  color:black;
+  text-align: center;
+  margin: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.tools{
+  list-style-type: none;
+  padding: 10px;
+  
+}
+.tools li{
+  
+  text-align: center;
+  margin: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+.contact{
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid blanchedalmond;
+}
+.contact li a{
+  
+  color: antiquewhite;
+  margin: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  
 }
