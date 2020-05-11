@@ -25,12 +25,12 @@ const printToDom = (selector, textToPrint) => {
       for (let i = 0;i < obj.length; i++){
         if (obj[i].available === true) {
         domString += '<div class="availableProjects">';
-        domString += `<h3>${obj[i].title}</h3>`;
+        domString += `<span class="cardTitle"><h3 >${obj[i].title}</h3></span>`;
         domString += `<img src="${obj[i].screenshot}>" alt="${obj[i].title}"`;
         domString += `<p>${obj[i].description}</p>`;
         domString += `<h3><a href="${obj[i].url}">Live Site<a/></h3>`;
-        domString += `<h3><a href="${obj[i].githubUrl}">gitHub<a/></h3>`;
-        domString += '</div>';
+        domString += `<h3><a href="${obj[i].githubUrl}"><i class="fa fa-github"></i><a/></h3>`;
+        domString += '</h3>';
       }
       }
       printToDom('#projectCards', domString)
